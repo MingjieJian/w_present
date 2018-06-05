@@ -4,10 +4,10 @@ title:      "Day - 1"
 subtitle:   "羽田机场 - 巢鸭"
 date:       2018-05-29
 author:     "Mingjie"
-header-img: "img/post-bg-how-to.png"
+header-img: "img/post-bg-day1.png"
 comments:   false
 tags:
-      - hanging-around
+      - going-far
 ---
 
 2月18虽然是周日，但还是和往常一样来到了学校。早上和下午做了什么已经不记得了，不过从大概两点多开始就挂着flightaware，算着什么时候该去机场了。这么多次都是爸妈接机，总该我来接一次。虽然落地过关拿行李之后出来肯定过了7点半，但是怎么能不在7点半前到呢？这么想着吃完晚饭就跑羽田去了。熟门熟路地走到出关口，站了一会决定坐着，然后再站起来，然后再坐着。一直等到老妈手机开机、连上随身WiFi之后才稍微坐久了一点。本来以为过关的人不会很多，不过还是周末的晚上，爸妈愣是搞了一个多小时才出来。

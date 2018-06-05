@@ -1,6 +1,6 @@
 # Site settings
-title: 简单的博客
-SEOTitle: 简单的博客
+title: 简单的旅行
+SEOTitle: 简单的旅行
 header-img: img/home-bg.jpg
 email: ssaajianmigjie@gmail.com
 description: ""
@@ -92,6 +92,6 @@ friends: [
 ]
 
 # RSS feed
-name:         简单的博客
-description:  Write everything, think everything.
+name:         简单的旅行
+description:  Link tighter in the travel.
 url:          https://mingjiejian.github.io/
