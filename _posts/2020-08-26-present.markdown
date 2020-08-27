@@ -3,7 +3,7 @@ layout:     post
 title:      "Present"
 subtitle:   "礼物"
 date:       2020-08-26
-author:     "Mingjie"
+author:     "Wanglaoshi"
 header-img: "img/post-bg-day4.jpg"
 comments:   false
 tags:
@@ -17,7 +17,7 @@ tags:
   <input type="submit" onclick="myFunction()" />
 </form>
 
-<img id="mypic" src="/img/in-post/post-present/0lzzsd_big.png" alt="present" width="150%" style="display: none;">
+<img id="mypic" src="/img/0lzzsd_big.png" alt="present" width="150%" style="display: none;">
 
 <script>
 function myFunction() {
