@@ -17,12 +17,104 @@ tags:
   <input type="submit" onclick="myFunction()" />
 </form>
 
-<img id="mypic" src="/img/in-post/post-present/present.png" alt="present" width="150%" style="display: none;">
+<div id='hide' style="display:none">
+<img id="mypic" src="/img/in-post/post-present/present.png" alt="present" width="150%">
+
+
+<a href=""
+  onclick="toggleAppear('letterlist'); return false;">
+  Which galaxies are used in this image?</a>
+
+
+<div id="letterlist" class="table-responsive" style="display:none"><table class="table">
+  <thead>
+    <tr>
+      <th style="text-align: center">Letter</th>
+      <th style="text-align: center">SDSS ID <small>(click for more information)</small></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">G</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587741490911117326">587741490911117326</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">H</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587733608561442856">587733608561442856</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">I</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587741821065101540">587741821065101540</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">P</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587742188833210436">587742188833210436</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">R</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=588017704534147084">588017704534147084</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Y</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587735489208778875">587735489208778875</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">a</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587741532254109848">587741532254109848</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">b</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587729776370450597">587729776370450597</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">d</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=588023668093485105">588023668093485105</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">e</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=588023240743583771">588023240743583771</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">h</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=588023048016035879">588023048016035879</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">i</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587731186736169172">587731186736169172</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">m</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587725471208112391">587725471208112391</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">n</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587738617558663207">587738617558663207</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">p</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587725817483100209">587725817483100209</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">t</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=588017979992441297">588017979992441297</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">w</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587738617023496225">587738617023496225</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">y</td>
+      <td style="text-align: center"><a href="http://cas.sdss.org/dr7/en/tools/explore/obj.asp?id=587736477060300967">587736477060300967</a></td>
+    </tr>
+  </tbody>
+</table></div>
+
+</div>
 
 <script>
 function myFunction() {
   var pwd = document.getElementById("password").value
-  var x = document.getElementById("mypic");
+  var x = document.getElementById("hide");
   if (pwd === '123') {
 	x.style.display = "block"
   } else {
@@ -30,5 +122,27 @@ function myFunction() {
 	document.getElementById("pwd_form").reset();
   }
 }
+function toggleAppear(element) {
+  var x = document.getElementById("letterlist");
+  if (x.style.display==="none"){
+    x.style.display = "block"
+    } else {
+      x.style.display = "none"
+    } 
+  
+}
 
+function blindAndFade(element){
+  new Effect.Parallel(
+      [ new Effect.Fade(element, {sync: true}),
+	new Effect.BlindUp(element, {sync: true})]);
+}
+
+function blindAndAppear(element){
+  new Effect.Parallel(
+      [ new Effect.Appear(element, {sync: true}),
+	new Effect.BlindDown(element, {sync: true,
+	      afterFinish: function(effect) { Effect.ScrollTo(effect.element); }
+	  })]);
+}
 </script>
