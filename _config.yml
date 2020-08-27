@@ -1,18 +1,18 @@
 # Site settings
-title: 简单的旅行
-SEOTitle: 简单的旅行
+title: Present
+SEOTitle: Present
 header-img: img/home-bg.jpg
-email: ssaajianmigjie@gmail.com
+email: 
 description: ""
 keyword: ""
 
 
 
 # SNS settings
-RSS: true
+RSS: false
 #weibo_username:
 #zhihu_username:     jian-ming-jie
-github_username:    mingjieJian
+# github_username:    mingjieJian
 #twitter_username:
 #facebook_username:
 
@@ -45,7 +45,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: mingjiejian-github-io
+# disqus_username: mingjiejian-github-io
 
 # Duoshuo settings
 #duoshuo_username: huxblog
@@ -79,16 +79,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 # Friends
 friends: [
-    {
-        title: "Mingjie's Blog",
-        href: "http://mingjiejian.github.io/"
-    },{
-        title: "Fmajor's Blog",
-        href: "http://fmajor.lamost.org/blog/"
-    },{
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    }
+    
 ]
 
 # RSS feed

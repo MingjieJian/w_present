@@ -1,0 +1,34 @@
+---
+layout:     post
+title:      "Present"
+subtitle:   "礼物"
+date:       2020-08-26
+author:     "Mingjie"
+header-img: "img/post-bg-day4.jpg"
+comments:   false
+tags:
+      - going-far
+---
+
+# Something
+
+<form id='pwd_form' onsubmit="return false;">
+  Password (123): <input type="text" name="password" id='password'/>
+  <input type="submit" onclick="myFunction()" />
+</form>
+
+<img id="mypic" src="/img/in-post/post-present/0lzzsd_big.png" alt="present" width="150%" style="display: none;">
+
+<script>
+function myFunction() {
+  var pwd = document.getElementById("password").value
+  var x = document.getElementById("mypic");
+  if (pwd === '123') {
+	x.style.display = "block"
+  } else {
+	alert("Password is not correct!")
+	document.getElementById("pwd_form").reset();
+  }
+}
+
+</script>
