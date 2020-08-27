@@ -19,6 +19,8 @@ tags:
 
 <img id="mypic" src="/img/0lzzsd_big.png" alt="present" width="150%" style="display: none;">
 
+![](/img/0lzzsd_big.png)
+
 <script>
 function myFunction() {
   var pwd = document.getElementById("password").value
