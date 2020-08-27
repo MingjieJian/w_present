@@ -17,9 +17,9 @@ tags:
   <input type="submit" onclick="myFunction()" />
 </form>
 
-<img id="mypic" src="/img/present.png" alt="present" width="150%" style="display: none;">
+<img id="mypic" src="/w_present/img/present.png" alt="present" width="150%" style="display: none;">
 
-![](/img/present.png)
+![](/w_present/img/present.png)
 
 <script>
 function myFunction() {
