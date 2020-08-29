@@ -1,25 +1,20 @@
 ---
 layout:     post
-title:      "Present"
-subtitle:   "礼物"
-date:       2020-08-26
-author:     "Wanglaoshi"
-header-img: "img/post-bg-day4.jpg"
+title:      "To 魏仙女"
+subtitle:   "A present from far far away."
+date:       2020-08-29
+author:     "ali"
+header-img: "img/post-bg-w-present.jpg"
 comments:   false
-tags:
-      - going-far
 ---
 
-# Something
-
 <form id='pwd_form' onsubmit="return false;">
-  Password (123): <input type="text" name="password" id='password'/>
+  请输入密码： <input type="text" name="password" id='password'/>
   <input type="submit" onclick="myFunction()" />
 </form>
 
 <div id='hide' style="display:none">
 <img id="mypic" src="/img/in-post/post-present/present.png" alt="present" width="150%">
-
 
 <a href=""
   onclick="toggleAppear('letterlist'); return false;">
@@ -115,7 +110,7 @@ tags:
 function myFunction() {
   var pwd = document.getElementById("password").value
   var x = document.getElementById("hide");
-  if (pwd === '123') {
+  if (pwd === '20200830') {
 	x.style.display = "block"
   } else {
 	alert("Password is not correct!")
